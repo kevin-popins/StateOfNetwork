@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--
+      Разрешаем cleartext только для доменов, где speedtest-узлы доступны по HTTP (в том числе на :8080).
+      Глобально cleartext не включаем.
+    -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">ertelecom.ru</domain>
+    </domain-config>
+</network-security-config>
