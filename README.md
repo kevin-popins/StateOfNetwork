@@ -11,11 +11,3 @@ Android Studio: open the project, wait for Gradle Sync, then run the `app` confi
 Terminal build:
 ```bash
 ./gradlew assembleDebug
-## Screenshots
-
-<p align="center">
-  <img src="screenshots/whitelist.png" width="22%" />
-  <img src="screenshots/measurement.png" width="22%" />
-  <img src="screenshots/speedtest.png" width="22%" />
-  <img src="screenshots/history.png" width="22%" />
-</p>
